@@ -32,7 +32,7 @@ public class EventCause {
 		return causeCode;
 	}
 
-	public void setEventCode(int causeCode) {
+	public void setCauseCode(int causeCode) {
 		this.causeCode = causeCode;
 	}
 
