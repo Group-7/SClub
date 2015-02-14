@@ -4,6 +4,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * 
+ * @author marc
+ *
+ */
 @Entity
 @Table(name="network")
 public class Network {
