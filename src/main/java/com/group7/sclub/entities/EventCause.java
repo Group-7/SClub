@@ -1,4 +1,4 @@
-package com.group7.sclub;
+package com.group7.sclub.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
