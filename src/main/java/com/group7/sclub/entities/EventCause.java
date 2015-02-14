@@ -16,22 +16,24 @@ import javax.persistence.Table;
 public class EventCause {
 
 	@Id
-	@Column(name = "Cause Code")
-	private int CauseCode;
+	@Column(name = "Cause_Code")
+	private int causeCode;
 
 	@Id
-	@Column(name = "Event Id")
+	@Column(name = "Event_Id")
 	private int eventId;
 
 	@Column(name = "Description")
 	private String discription;
 
-	public int getEventCode() {
-		return CauseCode;
+	
+	
+	public int getCauseCode() {
+		return causeCode;
 	}
 
-	public void setEventCode(int eventCode) {
-		this.CauseCode = eventCode;
+	public void setEventCode(int causeCode) {
+		this.causeCode = causeCode;
 	}
 
 	public int getEventId() {
