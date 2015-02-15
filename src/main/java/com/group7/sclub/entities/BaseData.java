@@ -29,13 +29,13 @@ public class BaseData {
 	@Column(name="Event_ID")
 	private Integer eventId;
 	
-	@Id
-	private EventCause eventCause;
+	//@Id
+	//private EventCause eventCause;
 	
 	@Column(name="Failure_Class")
 	private int failureClass;
 	
-	private Failure failure;
+	//private Failure failure;
 	
 	@Id
 	@Column(name="TAC")
@@ -49,7 +49,7 @@ public class BaseData {
 	@Column(name="MNC")
 	private int mnc;
 	
-	private Network network;
+	//private Network network;
 	
 	@Column(name="Duration")
 	private long duration;
@@ -57,6 +57,7 @@ public class BaseData {
 	@Column(name="NE_Version")
 	private String neVersion;
 	
+	@Id
 	@Column(name="IMSI")
 	private long imsi;
 	
