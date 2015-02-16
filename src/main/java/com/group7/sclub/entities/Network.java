@@ -7,7 +7,7 @@ import javax.persistence.Table;
 /**
  * 
  * @author marc
- *
+ * Test from my branch
  */
 @Entity
 @Table(name="network")
