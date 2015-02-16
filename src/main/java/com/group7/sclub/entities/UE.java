@@ -19,6 +19,8 @@ public class UE {
 	@Column(name = "Model")
 	private String model;
 	
+	
+	/*
 	//missing in erd model
 	@Column(name = "manufacturer")	
 	private String manufacturer;
@@ -26,6 +28,7 @@ public class UE {
 	//missing in erd model
 	@Column(name = "Marketing_Name")
 	private String marketingName;
+	*/
 	
 	@Column(name = "UE_Type")
 	private String ueType;
@@ -61,7 +64,7 @@ public class UE {
 		this.model = model;
 	}
 
-	public String getManufacturer() {
+	/*public String getManufacturer() {
 		return manufacturer;
 	}
 
@@ -75,7 +78,7 @@ public class UE {
 
 	public void setMarketingName(String marketingName) {
 		this.marketingName = marketingName;
-	}
+	}*/
 
 	public String getUeType() {
 		return ueType;
